@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupiter whirls</title>
+    <meta name="author" content="Dries De Decker">
+    
+<meta name="description" content="Jupiter image edit.">
+<meta name="keywords" content="jupiter, astronomy, image editing">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../static/tailwind/style.css">
+    <style>
+      ::-moz-selection, ::selection {
+        color: white;
+        background: pink;
+      }
+    </style>
+</head>
+
+<body class="bg-gray-900 dark:bg-black">
+    <div class="overviews overflow-hidden grid grid-cols-5 md:grid-cols-10 sm:gap-4 min-h-16 sm:my-4">
+        <a href="/home"
+            class="col-span-2 break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600  focus:bg-red-100">
+            dries.page
+        </a>
+
+        <div class="current overview invisible bg-gray-400">
+            Blank
+        </div>
+
+        <div class="current overview invisible ">
+        </div>
+
+        <div class="current overview invisible">
+            
+        </div>
+
+        <div class=" invisible current overview bg-gray-400">
+            /games
+        </div>
+
+        <a href="/DIY"
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-green-400 bg-green-800 hover:bg-green-600 focus:bg-green-100">
+            /DIY
+        </a>
+
+        <a href="/art" 
+          class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-pink-300 bg-pink-800 hover:bg-pink-600  focus:bg-pink-100">
+            /art
+        </a>
+
+        <a href="/dev" 
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-blue-400 bg-blue-800 hover:bg-blue-600 focus:bg-blue-100">
+            /dev
+        </a>
+
+        <a href="/who" 
+        class="next overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600 focus:bg-red-100">
+            /?
+        </a>
+    </div>
+
+    <div class="articles grid grid-cols-10 sm:grid-cols-8 sm:gap-4 h-full">
+
+        <a href="soap" 
+            class="prev article z-10 overflow-hidden bg-green-900 hover:bg-green-700 focus:bg-green-600">
+            <span class="block text-green-600 focus:text-green-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+            <div class="invisible md:visible bg-green-200 hover:bg-green-100 focus:bg-green-50 -my-16 md:-my-24"><h3
+                class="text-green-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                Honeycomb Soap</h3></div>
+        </a>
+
+        <div class="current article z-20 bg-pink-50 dark:bg-gray-800 text-pink-800 dark:text-gray-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+            <h1 class="font-display font-semibold text-4xl sm:py-6 lg: py-10">Jupiter whirls</h1>
+            <span class="block text-right -mt-8">Jan 3, 2021</span></br>
+            <article class="text-pink-800 dark:text-gray-200">
+            
+
+<p>I came across this cool image of Jupiter on reddit.</p>
+<a href="../../static/img/jupiter/0.png"> <img style="display:none" src="../../static/img/jupiter/ld/0.png"><img src="../../static/img/jupiter/0.png" alt="Jupiter clouds" style="background-image: url('../../static/img/jupiter/ld/0.png')"></img></a>
+</br>
+
+<p>Using reverse image search, I couldn't find where it came from, except that it was a picture from the NASA Juno mission. So I searched the NASA website and found a sharper but less colourful version:</p>
+<a href="../../static/img/jupiter/1.png"> <img style="display:none" src="../../static/img/jupiter/ld/1.png"><img src="../../static/img/jupiter/1.png" loading="lazy" alt="Jupiter clouds original picture" style="background-image: url('../../static/img/jupiter/ld/1.png')"></img></a></br>
+
+<p>You can find it <a href="https://www.missionjuno.swri.edu/junocam/processing?id=9123">on the NASA Juno website.</a></p>
+
+<p>Turns out it isn't really a photo.</p>
+<p>It uses real space photos, but a software engineer/ data and image processor at NASA by the name of <a href="https://linktr.ee/Kevinmgill">Kevin Gill</a> maps those images onto 3D models. The relief is exaggerated by raising the bright spots and sinking the dark spots. Looks extremely cool, if you ask me.
+</p>
+<p>Since these images are already heavily edited, I took the liberty of turning it up to 11. In GIMP, I increased the saturation and contrast, then also increased the colour temperature of the nearby clouds and decreased the colour temperature of the far away parts. Then I used <a href="https://github.com/nagadomi/waifu2x">a neural network image scaling tool</a> to intelligently double the resolution and make the image usable as a desktop background.</p>
+<a href="../../static/img/jupiter/2.png"> <img style="display:none" src="../../static/img/jupiter/ld/2.png"><img src="../../static/img/jupiter/2.png" loading="lazy" alt="More saturated and larger edit of jupiter clouds picture" style="background-image: url('../../static/img/jupiter/ld/2.png')"></img></a>
+</br>
+
+<p>You can click the image to see it in full size. </p>
+<p>I'm quite satisfied with the result. However, I also wanted to create something original from the raw NASA data and came up with this:</p>
+<a href="../../static/img/jupiter/3.png"> <img style="display:none" src="../../static/img/jupiter/ld/3.png"><img src="../../static/img/jupiter/3.png" loading="lazy" alt="Jupiter surface in retro color scheme" style="background-image: url('../../static/img/jupiter/ld/3.png')"></img></a>
+</br>
+
+The input images can be found <a href="https://www.missionjuno.swri.edu/junocam/processing?id=9787">here</a>. 
+<p>Aside from changing the colours, rotating, cropping, and adding a background image, I also added some extra depth to the clouds by shifting the lighter tones by a few pixels.</p>
+<p>This looks heavily manipulated, but it's less edited than most scientific pictures. In space imagery, art and science just go hand in hand.</p>
+</br>
+<p>Image rights: Creative Commons</p>
+
+
+            </article>
+        </div>
+
+        <a href="economy"
+            class="next article z-10 overflow-hidden bg-pink-900 hover:bg-pink-700 focus:bg-pink-600">
+            <span class="text-pink-600 focus:text-pink-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+            <div class="invisible md:visible bg-pink-200 hover:bg-pink-100 focus:bg-pink-50 -my-16 md:-my-24"><h3
+                class="text-pink-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                What is the economy?</h3></div>
+        </a>
+
+
+    </div>
+
+</body>
+
+</html>

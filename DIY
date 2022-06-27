@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page not found!</title>
+    <title>DIY overview</title>
     <meta name="author" content="Dries De Decker">
     
-<meta name="description" content="404 error page">
-<meta name="keywords" content="404, error, page not found">
+<meta name="description" content="Overview of all articles">
+<meta name="keywords" content="directory, grid, overview, reads, articles, writing, blog, index">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
     <style>
         ::-moz-selection, ::selection {
           color: white;
-          background: red;
+          background: green;
         }
       </style>
 </head>
@@ -65,11 +65,11 @@
         </a>
     </div>
 
-    <div class="text-lg py-4 px-4 sm:px-16 md:py-8 md:px-20 lg:px-48 bg-red-50 dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full">
+    <div class="text-lg py-4 px-4 sm:px-16 md:py-8 md:px-20 lg:px-48 bg-green-50 dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full">
 
-        <h1 class="text-red-800 dark:text-gray-200 font-display font-bold text-4xl sm:py-6 lg: py-10">Page not found!</h1>
+        <h1 class="text-green-800 dark:text-gray-200 font-display font-bold text-4xl sm:py-6 lg: py-10">DIY overview</h1>
         
-Nothing to see here.
+<div class='flex flex-row flex-wrap -mx-4'><div class='flex-none sm:shadow-sm text-left font-display py-2 px-4 text-green-200 bg-green-800 hover:bg-green-600 focus:bg-green-100 h-48 w-48 m-2 sm:m-4'><a href=/unweaving><span class='block text-right font-bold'>Feb 19, 2021</span><h2 class='font-display overflow-hidden h-full text-2xl'>Aztec Metaphysics Boardgame Box Art</h2></a></div><div class='flex-none sm:shadow-sm text-left font-display py-2 px-4 text-green-200 bg-green-800 hover:bg-green-600 focus:bg-green-100 h-48 w-48 m-2 sm:m-4'><a href=/soap><span class='block text-right font-bold'>Jan 22, 2021</span><h2 class='font-display overflow-hidden h-full text-2xl'>Honeycomb Soap</h2></a></div></div>
 
 
     </div>

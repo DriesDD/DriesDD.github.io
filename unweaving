@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aztec Metaphysics Boardgame Box Art</title>
+    <meta name="author" content="Dries De Decker">
+    
+<meta name="description" content="Unweaving - Boardgame box art.">
+<meta name="keywords" content="aztecs, game design, metaphysics, morality, 5th age, drawing, painting, DIY">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../static/tailwind/style.css">
+    <style>
+      ::-moz-selection, ::selection {
+        color: white;
+        background: green;
+      }
+    </style>
+</head>
+
+<body class="bg-gray-900 dark:bg-black">
+    <div class="overviews overflow-hidden grid grid-cols-5 md:grid-cols-10 sm:gap-4 min-h-16 sm:my-4">
+        <a href="/home"
+            class="col-span-2 break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600  focus:bg-red-100">
+            dries.page
+        </a>
+
+        <div class="current overview invisible bg-gray-400">
+            Blank
+        </div>
+
+        <div class="current overview invisible ">
+        </div>
+
+        <div class="current overview invisible">
+            
+        </div>
+
+        <div class=" invisible current overview bg-gray-400">
+            /games
+        </div>
+
+        <a href="/DIY"
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-green-400 bg-green-800 hover:bg-green-600 focus:bg-green-100">
+            /DIY
+        </a>
+
+        <a href="/art" 
+          class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-pink-300 bg-pink-800 hover:bg-pink-600  focus:bg-pink-100">
+            /art
+        </a>
+
+        <a href="/dev" 
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-blue-400 bg-blue-800 hover:bg-blue-600 focus:bg-blue-100">
+            /dev
+        </a>
+
+        <a href="/who" 
+        class="next overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600 focus:bg-red-100">
+            /?
+        </a>
+    </div>
+
+    <div class="articles grid grid-cols-10 sm:grid-cols-8 sm:gap-4 h-full">
+
+        <a href="words" 
+            class="prev article z-10 overflow-hidden bg-pink-900 hover:bg-pink-700 focus:bg-pink-600">
+            <span class="block text-pink-600 focus:text-pink-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+            <div class="invisible md:visible bg-pink-200 hover:bg-pink-100 focus:bg-pink-50 -my-16 md:-my-24"><h3
+                class="text-pink-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                Words on things are overpowered</h3></div>
+        </a>
+
+        <div class="current article z-20 bg-green-50 dark:bg-gray-800 text-green-800 dark:text-gray-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+            <h1 class="font-display font-semibold text-4xl sm:py-6 lg: py-10">Aztec Metaphysics Boardgame Box Art</h1>
+            <span class="block text-right -mt-8">Feb 19, 2021</span></br>
+            <article class="text-green-800 dark:text-gray-200">
+            
+
+<a href="../../static/img/5th age/box.png"> <img src="../../static/img/5th age/box.png"></img></a>
+</br>
+<p>This is a drawing I made today, on a boardgame box.</p>
+
+<p>It's part of a nearly endless project. In fact, I have been working on and off on the same boardgame for almost 10 years without losing interest. It has been tested by my friends about seventy times, and every single mechanic and piece has been through some replacements. Like the ship of Theseus, it bears little resemblance to the original version. At this point the gameplay is on version 16.0 and as good as finished. The rules and mechanics are fun and balanced and I never get tired of playing and improving it. I know, not very humble. Let me know if you want to find out for yourself!</p>
+<a href="../../static/img/5th age/playsession.png"> <img src="../../static/img/5th age/playsession.png"></img></a>
+</br>
+<p>While we do play the game often, my creative work on it has been a little bit slower in the past year, mostly some small balance changes. Seeing friends enjoy the game is rewarding, but people keep asking me if I would publish it. Isn't that the logical next step? Or do I really enjoy the process of making a game over completing it? I've even been offered help with the publishing. To take that leap I would have to make some big commitments and probably also get rid of some pieces. Game publishers are extremely choosy about the projects they will commit to. I'm also not sure if I have the marketing skills to do it myself with a Kickstarter campaign. But most of all, I also realized that even after all these years I still don't feel like the project is up to my standards. Three reasons:</p>
+<ul>
+    <li>The game has mostly been tested by the same people who I've explained the rules to. I don't really know how it does in different groups, and if the rules are clear without an experienced player in the room.</li>
+    <li>It's still too expensive to make. I've sold one copy so far - at €80, which is the full price of production + shipping + customs. I'm very grateful to the generous soul who bought it though.</li>
+    <li>The game kind of lacked a theme so far. Some other games have this too, the generic medieval with magic-ish kind of setting. But I think games with a strong theme that plays into the mechanics are better, so why settle for something generic?</li>
+</ul>
+<p>Recently, I've found a solution to all my doubts in the strangest of places, <b>Aztec metaphysics.</b><p>
+
+    <h2>Becoming</h2>
+
+<p>It started with an article about <a href="https://iep.utm.edu/aztec/#H6">Aztec moral philosophy</a>, and I was intrigued by the very pragmatic combination ontological monism (everything is made of only 1 thing - teotl) and the recognition of humans as social and imperfect creatures. Views of morality are connected to the wider worldview, questions on the nature of truth, the fabric everything is made of, the place of humanity in the cosmos, the existence of an afterlife or other planes of existence. Even as a modern scientific worldview can weed out a lot of false beliefs, it often comes with its own hidden presumptions and values. Aztecs saw the world and everything in it as eternally in motion and often ambiguous, and that motion-change is what made things real. Now this is a bit of a stretch, but I feel like my boardgame is alive through becoming, not only the constant updates but also the fact no two play sessions are the same and the player is always rebalancing themselves. There is no balance without constant change. Aztecs have a recognition for the cyclical and the dialectic of everything, like life and death, without devolving into a belief in body-soul dualism or even another strict binary division. The Aztecs, despite all their insane deities and superstitions, worshipped very real processes like how waste/manure is turned into food/plants, or the rhytm of night and day. Their gods change gender, color and shape depending on the time-place. In morality the Aztecs recognized that the challenge is not mainly in the fundamental ethical definitions, but in learning how to balance ourselves in our murky and fickle existence. This moral process is a journey, and not one we undertake by ourselves. The more we act in the world, the more we <i>are</i>, and the more chance we have to be moral, as well as slip up, grab someone's hand and reroute. Existence is defined by becoming rather than being, and even in writing that I likely show my own bias by turning verbs into nouns.</p>
+<p>To better understand Aztec ethics and morality, it is clear that we need to understand their broader metaphysics - how they believe the world is structured. And here I am taking my sweet time. After watching <a href='https://www.youtube.com/watch?v=6uaIeY-FGpI&list=PL6iv-7E1twmgbYSS5B2_KJ7wad2oV97e7'>a lecture on youtube by James Maffie</a>, I found out that his work on Aztec philosophy is groundbreaking (according to most of his peers - bar one angry neoplatonist). So I ordered <a href="https://www.jstor.org/stable/j.ctt9qhkh2">his book</a>. And while absorbed by Aztec philosophy in the last couple of weeks, I realized that this had to be the theme of my game.</p>
+
+<a href="../../static/img/5th age/book.png"> <img src="../../static/img/5th age/book.png"></img></a>
+</br>
+
+<h2>5th Age symbolism</h2>
+
+<p>The Aztec theme fits the game exceptionally well. Growth and loss are closely interlinked through sacrifice, war and expansion. Players worship and play by the rhythm of natural forces which we would call deities, planning the conquest of the center of the board, or their neighbours. Courage is rewarded by a War god (This could be either Tezcatlipoca or Huitzilopochtli), as a lack of war would lead to even more imbalance than total war. The player who builds in five locations with powerful stones wins. Staying true to the Aztec theme, these stones should be turqoise. Turqoise or jade gemstone had a very special meaning. It signified power, life and the heart. The number five signified completeness, but also oversaturation, creating unbalance and also the inevitable end of our world, which was in the fifth and final age. The most famous Aztec artefact is the Sun stone, further corroborating the status of stones. The fact that the world could end abruptly caused great anguish to the Aztecs, and indeed, their empire was unbalanced early. The game ends suddenly when five stones are conquered.</p>
+
+<p>In the box art, I wanted to put the central themes of the game, which are also central themes to the Aztec worldview in general, and to their notion of end-times more speficially. At the heart the five heartstones, the center relating to the navel of the world where humanity resides, perhaps the force that eventually disorders it all. Central patterns are the double helix, and a weaving pattern, which are two out of three central ordering forces to how the world progresses through spacetime (or as Maffie calls it, time-place). The third force that runs through it all in the current age, is Nahui Ollin, the undulating vibrating movement which is both ordered and ordering yet eventually destroys the world. Apparent paradoxes and dualism are common throughout the Aztec worldview, with a plentitude of symbolism of inamic pairs, twins, crossroads, etc. Seeming opposites are often deeply connected or manifestations of the same process. I pictured the cosmic weaving being unwoven and fractured from the edges. This is an artistic liberty, since the Aztecs never visualized it that way, as far as I know. They were certain that earthquakes would end us but perhaps they never painted the future. The remaining imagery is inspired by the cardinal directions, which correspond to seasons, to gods, to colors and to symbols, of which I pictured one in each corner. For example, in the bottom-left corner we see the South, symbolized by the color yellow, the hummingbird and thorns. An inspiration for this was <a href="http://www.famsi.org/research/graz/fejervary_mayer/img_page01.html">the calendar-map-quincunx from the precolumbian Codex Fejérváry-Mayer</a>.</p>
+<p>This drawing made me realize that making more things by hand is not necessarily a downgrade from storeshelf-quality game boxes. Sure, it's a bit more crude - but I should recognize that at this point I'm still making a handmade product and own it. So, my materials will be cheaper, the end result will be more personal. I will make and sell about 5 copies to whoever's interested, at around €50. This way I can gather some more user experiences as well. And keep the project in motion.</p>
+
+
+            </article>
+        </div>
+
+        <a href="soap"
+            class="next article z-10 overflow-hidden bg-green-900 hover:bg-green-700 focus:bg-green-600">
+            <span class="text-green-600 focus:text-green-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+            <div class="invisible md:visible bg-green-200 hover:bg-green-100 focus:bg-green-50 -my-16 md:-my-24"><h3
+                class="text-green-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                Honeycomb Soap</h3></div>
+        </a>
+
+
+    </div>
+
+</body>
+
+</html>
