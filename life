@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python and the Meaning of Life</title>
+    <meta name="author" content="Dries De Decker">
+    
+<meta name="description" content="Blog post on simulating evolution and ecosystems with python.">
+<meta name="keywords" content="python, evolution, emergent, ecology, biodiversity, genetic algorithm, genetics">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../static/tailwind/style.css">
+    <style>
+      ::-moz-selection, ::selection {
+        color: white;
+        background: blue;
+      }
+    </style>
+</head>
+
+<body class="bg-gray-900 dark:bg-black">
+    <div class="overviews overflow-hidden grid grid-cols-5 md:grid-cols-10 sm:gap-4 min-h-16 sm:my-4">
+        <a href="/home"
+            class="col-span-2 break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600  focus:bg-red-100">
+            dries.page
+        </a>
+
+        <div class="current overview invisible bg-gray-400">
+            Blank
+        </div>
+
+        <div class="current overview invisible ">
+        </div>
+
+        <div class="current overview invisible">
+            
+        </div>
+
+        <div class=" invisible current overview bg-gray-400">
+            /games
+        </div>
+
+        <a href="/DIY"
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-green-400 bg-green-800 hover:bg-green-600 focus:bg-green-100">
+            /DIY
+        </a>
+
+        <a href="/art" 
+          class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-pink-300 bg-pink-800 hover:bg-pink-600  focus:bg-pink-100">
+            /art
+        </a>
+
+        <a href="/dev" 
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-blue-400 bg-blue-800 hover:bg-blue-600 focus:bg-blue-100">
+            /dev
+        </a>
+
+        <a href="/who" 
+        class="next overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600 focus:bg-red-100">
+            /?
+        </a>
+    </div>
+
+    <div class="articles grid grid-cols-10 sm:grid-cols-8 sm:gap-4 h-full">
+
+        <a href="economy" 
+            class="prev article z-10 overflow-hidden bg-pink-900 hover:bg-pink-700 focus:bg-pink-600">
+            <span class="block text-pink-600 focus:text-pink-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+            <div class="invisible md:visible bg-pink-200 hover:bg-pink-100 focus:bg-pink-50 -my-16 md:-my-24"><h3
+                class="text-pink-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                What is the economy?</h3></div>
+        </a>
+
+        <div class="current article z-20 bg-blue-50 dark:bg-gray-800 text-blue-800 dark:text-gray-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+            <h1 class="font-display font-semibold text-4xl sm:py-6 lg: py-10">Python and the Meaning of Life</h1>
+            <span class="block text-right -mt-8">Dec 22, 2020</span></br>
+            <article class="text-blue-800 dark:text-gray-200">
+            
+
+
+<p>The evolution of life fascinates to no end. Around 90 chemical elements form more than 9 million known organic molecules, created from processes written in thousands to billions DNA base pairs reproducing themselves. Most lifeforms are unicellular, but humans have 30 trillion cells. Evolution is an untiring creative algorithm that creates order from chaos without planning. The creatures it produces mold their environment, which in turn influences the course of evolution. If you could look at earth's history as a fast-forward time lapse, the surface would look like a rippling liquid on which life explodes in sudden stutters, like a noisy, ever-changing expressionist painting.</p>
+
+<img title="You may not see it, but these are a bunch of plants and a few herbivores." src="../../static/img/evomatrix.png"
+    alt="A grid of green squares and an open space with a few purple ones.">
+
+<p>Simulating life on a computer means throwing overboard almost all complexity. The interesting exercise is in choosing what to keep, like trying to summarize a book in one sentence. Some of my favorite life experiments which you can try online are:</p> 
+<ul>
+<li><a href="https://playgameoflife.com/">Conway's Game of Life</a>, where cells sprout in and out of existence according to the number of neighbouring cells. From these most simple mathematical rules emerge larger structures. There is no evolution and only one 'cell type' but it laid the foundation for many other <i>cellular automata</i>.</li>
+<li><a href="https://thelifeengine.net/">The Life Engine</a>, which simulates evolution and ecosystems. Cells come in a discrete number of functions to form functioning multicellular lifeforms. Intelligent design is recommended to speed things up.
+</li>
+<li><a href="https://labs.minutelabs.io/evolution-simulator">The minutelabs evolution simulator</a>, if only because it was based on a youtube channel called Primer, which wonderfully explains what is going on. </li>
+</ul>
+
+<p>I started making evolution simulators based on my casual interest in evolution and ecology, without knowing what else is out there. It's one of those ideas where many people do sort of the same thing without knowing about eachother. As a teenager, I made my simulations in a tool called Game Maker, which was a lot of fun. I made one simulation for optimal eye placement on some swimming circle creatures, one for group selection and social behavior, and a few with the goal of creating lush ecosystems.</p>
+
+<div class="flex flex-wrap">
+    <div class="flex-1 min-w-1/2 "><p>Using an old game engine was however a dead end if I want to share my work, optimize it, run it on a server, or feed it into a neural net. I could barely even access the old experiments, since they require unsupported old versions of Game Maker, and executables don't work on my Linux and somehow became anti-aliased on Windows 10. So when learning how to code in something slightly more serious like python, I naturally wanted to remake a basic evolution simulator instead of 'hello world'.</p></div>
+    <div class="flex-initial"><img width="420px" title="These folders were untouched for ten years." src="../../static/img/oldevo.png"
+    alt="Some of my early evolution experiments."></div>
+    </div></br>
+
+<h2>My simulation</h2>
+<p>I tried to keep it simple. It is easy to get interesting results by introducing a lot of variation in creatures and environment. The goal however, is not to code the complexity, but to have it emerge from the simplest possible rules. Still, I know it's a succesful simulation of life because the main features (Birth, Growth, Fighting and Death) are all chapters in Monty Python's "The Meaning of Life". And that's as good a definition as any.</p>
+<p>There is a single environment, a 50*50 grid which wraps around the sides. Every square on the grid can hold one cell. Every cell has 3 genes: speed, diet and power. Each gene does one thing only and is expressed by one base color (red, green and blue). This way, the mixed rgb color of the cell tells you exactly what its genes are.</p>
+<p>There is one more value: energy, which is spent by moving, being strong, living and gained by feeding. It's represented as the size of the cell. Reproduction happens if there is an adjacent free spot, asexually when reaching a certain energy treshold, and transfers part of this energy to a new organism with the same genes but slightly mutated.</p>
+<p>I am not a mathematician in the slightest, but the mathematical name of this kind of grid with gradual values turns out to be 'coupled map lattice'. The term 'cellular automaton' or 'iterative array' is more famous, but is used for grids where the cells have a finite amount of states. Coupled map lattices have apparently been used to model biological system and population dynamics, though I imagine that academic ecologists use less computationally expensive models by relying on more simplified formulas like heat equations.</p>
+<p>You can find the code <a href="https://github.com/DriesDD/evomatrix">here</a>. The phenomena that can arise from these simple rules are already very interesting. Let's run it and see what happens.</p>
+
+<video controls>
+    <source src="../../static/vid/evomatrix.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+<p>On the left we see the grid or matrix, full of cells. The green cells could be considered plants - the greener a cell is, the more resources it can produce autotrophically, that is without eating other lifeforms. Blue-green plants move around, which can be useful to colonize new areas but requires energy. Yellow plants have more power, which can be useful for defending in a collision with another creature.</p>
+<p>On the right we see a 3D scatterplot. This is just another way of representing the same creatures you see on the left. Except this time, it is not their physical location but their genes that determine their position. The higher up in the cube (blue) the faster they are. The right side (green) is about how autotrophic they are. The opposite side is for creatures which get energy from eating other creatures. The red side on the left is for power, power is needed to damage other creatures and if they survive they can strike back with their power. This way, energy can be transferred from one creature to another.</p>
+<p>What is going on in the video is that from a situation of only 'plants', some plants figure out that by moving and having power at the same time, they can take energy from eating other plants. It may take a while for this evolution to occur, because it requires the plant to become mobile, heterotrophic and moving all at the same time. The reason that herbivores can evolve at all is because there is plenty of time to evolve, and there are so many plants so the strategy can be very succesful. Once there is a single succesful herbivore, the process picks up exponentially and herbivores evolve further and further away from plants.</p>
+<p>The plant/herbivore split is the most basic process of speciation that I noticed even with wildly different parameters. However, by tinkering with the parameters of the simulation more niches can be created, like plants that run away which then results in herbivores that sit still and wait. There is also a much larger diversity in plants than in herbivores. This doesn't mean that there are different ecological niches, it could also mean that the environment is more forgiving for suboptimal strategies.</p>
+<p>We can see a predator-prey cycle, where more plants causes more herbivores, which in turn means less plants. And so the populations of both species go up and down in waves, where the herbivores peak later.</p>
+</br>
+<video controls>
+    <source src="../../static/vid/evomatrix2.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+<p>In this longer simulation, we changed the parameters to make speed and power less costly. The 'plants' evolve two defensive strategies, one is to move and disperse and the other is to fight back when hit. Once the second strategy evolves, the first one goes extinct, since there is no more open space for the moving plants.</p>
+<p>There is no intelligence in the movement, creatures just move around randomly. This is also why the herbivores only live inside corridors between the plants - once the corridor becomes too wide they run around in the empty space and starve.</p>
+
+<p> Besides adding intelligence or other interesting features, a next step could be to use a neural network to find out which parameters create the highest biodiversity. I think we have tweaked them well for this experiment, but when dealing with more parameters and genes this would become challenging since the number of possible creatures grows exponentially. A trap would be that a total lack of evolutionary pressures would cause the largest genetic drift and as such the most biodiversity, but this concept of biodiversity would be ecologically meaningless. So the question becomes: how to measure and then optimize the number of ecological niches? That's for another time.</p>
+
+
+
+            </article>
+        </div>
+
+        <a href="spacesnake"
+            class="next article z-10 overflow-hidden bg-blue-900 hover:bg-blue-700 focus:bg-blue-600">
+            <span class="text-blue-600 focus:text-blue-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+            <div class="invisible md:visible bg-blue-200 hover:bg-blue-100 focus:bg-blue-50 -my-16 md:-my-24"><h3
+                class="text-blue-800 font-display break-words md:break-normal font-medium text-2xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+                Space Snake: Unleashed</h3></div>
+        </a>
+
+
+    </div>
+
+</body>
+
+</html>

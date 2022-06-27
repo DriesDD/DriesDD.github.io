@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DIY overview</title>
+    <meta name="author" content="Dries De Decker">
+    
+<meta name="description" content="Overview of all articles">
+<meta name="keywords" content="directory, grid, overview, reads, articles, writing, blog, index">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/tailwind/style.css">
+    <style>
+        ::-moz-selection, ::selection {
+          color: white;
+          background: green;
+        }
+      </style>
+</head>
+
+<body class="bg-gray-900 dark:bg-black">
+
+    <div class="overviews overflow-hidden grid grid-cols-5 md:grid-cols-10 sm:gap-4 min-h-16 sm:my-4">
+        <a href="/home"
+            class="col-span-2 break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600  focus:bg-red-100">
+            dries.page
+        </a>
+
+        <div class="current overview invisible bg-gray-400">
+            Blank
+        </div>
+
+        <div class="current overview invisible ">
+        </div>
+
+        <div class="current overview invisible">
+            
+        </div>
+
+        <div class=" invisible current overview bg-gray-400">
+            /games
+        </div>
+
+        <a href="/DIY"
+        class=" current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-green-400 bg-green-800 hover:bg-green-600 focus:bg-green-100">
+            /DIY
+        </a>
+
+        <a href="/art"
+          class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-pink-300 bg-pink-800 hover:bg-pink-600  focus:bg-pink-100">
+            /art
+        </a>
+
+        <a href="/dev" 
+        class="current overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-blue-400 bg-blue-800 hover:bg-blue-600 focus:bg-{blue-100">
+            /dev
+        </a>
+
+        <a href="/who" 
+        class="next overview break-words whitespace-nowrap text-2xl text-center font-display font-bold p-2 text-red-400 bg-red-800 hover:bg-red-600 focus:bg-red-100">
+            /?
+        </a>
+    </div>
+
+    <div class="text-lg py-4 px-4 sm:px-16 md:py-8 md:px-20 lg:px-48 bg-green-50 dark:bg-gray-900 dark:text-gray-200 min-h-screen h-full">
+
+        <h1 class="text-green-800 dark:text-gray-200 font-display font-bold text-4xl sm:py-6 lg: py-10">DIY overview</h1>
+        
+<div class='flex flex-row flex-wrap -mx-4'><div class='flex-none sm:shadow-sm text-left font-display py-2 px-4 text-green-200 bg-green-800 hover:bg-green-600 focus:bg-green-100 h-48 w-48 m-2 sm:m-4'><a href=/unweaving><span class='block text-right font-bold'>Feb 19, 2021</span><h2 class='font-display overflow-hidden h-full text-2xl'>Aztec Metaphysics Boardgame Box Art</h2></a></div><div class='flex-none sm:shadow-sm text-left font-display py-2 px-4 text-green-200 bg-green-800 hover:bg-green-600 focus:bg-green-100 h-48 w-48 m-2 sm:m-4'><a href=/soap><span class='block text-right font-bold'>Jan 22, 2021</span><h2 class='font-display overflow-hidden h-full text-2xl'>Honeycomb Soap</h2></a></div></div>
+
+
+    </div>
+
+</body>
+
+</html>
