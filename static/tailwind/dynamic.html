@@ -1,0 +1,158 @@
+<!--cards-->
+
+<div class="flex flex-row flew-wrap sm:shadow-sm -mx-4 my-4 dark:bg-gray-900">
+<div class='flex-none text-left font-display font-bold py-2 px-4 m-2 sm:m-4 text-green-200 bg-green-900 hover:bg-green-600 focus:bg-green-100 h-48 w-48 mr-4 mb-4'><a><span class='block text-right'></span><h3 class='font-display overflow-hidden font-bold text-2xl'></h3></a></div>
+
+<div class='flex-initial text-left font-display font-bold py-2 px-4 text-red-200 bg-red-900 hover:bg-red-600 focus:bg-red-100 h-48 w-48 mr-4 mb-4'><a><span class='block text-right'></span><h3 class='font-display overflow-hidden font-bold text-2xl'></h3></a></div>
+
+<div class='flex-initial text-left font-display font-bold py-2 px-4 text-gray-200 bg-gray-900 hover:bg-gray-600 focus:bg-gray-100 h-48 w-48 mr-4 mb-4'><a><span class='block text-right'></span><h3 class='font-display overflow-hidden font-bold text-2xl'></h3></a></div>
+
+<div class='flex-initial text-left font-display font-bold py-2 px-4 text-blue-200 bg-blue-900 hover:bg-blue-600 focus:bg-blue-100 h-48 w-48 mr-4 mb-4'><a><span class='block text-right'></span><h3 class='font-display overflow-hidden font-bold text-2xl'></h3></a></div>
+
+<div class='flex-initial text-left font-display font-bold py-2 px-4 text-pink-200 bg-pink-900 hover:bg-pink-600 focus:bg-pink-100 h-48 w-48 mr-4 mb-4'><a><span class='block text-right'></span><h3 class='font-display overflow-hidden font-bold text-2xl'></h3></a></div>
+</div>
+
+<!--template-->
+
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-{{color}}-900 hover:bg-{{color}}-700 focus:bg-{{color}}-600">
+<span class="block text-{{color}}-600 focus:text-{{color}}-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-{{color}}-200 hover:bg-{{color}}-100 focus:bg-{{color}}-50 -my-16 md:-my-24"><h3
+    class="text-{{color}}-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-{{color}}-50 dark:text-{{color}}-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-{{color}}-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-{{color}}-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-{{color}}-900 hover:bg-{{color}}-700 focus:bg-{{color}}-600">
+<span class="text-{{color}}-600 focus:text-{{color}}-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-{{color}}-200 hover:bg-{{color}}-100 focus:bg-{{color}}-50 -my-16 md:-my-24"><h3
+    class="text-{{color}}-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+
+<!--green-->
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-green-900 hover:bg-green-700 focus:bg-green-600">
+<span class="block text-green-600 focus:text-green-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-green-200 hover:bg-green-100 focus:bg-green-50 -my-16 md:-my-24"><h3
+    class="text-green-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-green-50 dark:text-green-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-green-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-green-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-green-900 hover:bg-green-700 focus:bg-green-600">
+<span class="text-green-600 focus:text-green-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-green-200 hover:bg-green-100 focus:bg-green-50 -my-16 md:-my-24"><h3
+    class="text-green-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+<!--red-->
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-red-900 hover:bg-red-700 focus:bg-red-600">
+<span class="block text-red-600 focus:text-red-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-red-200 hover:bg-red-100 focus:bg-red-50 -my-16 md:-my-24"><h3
+    class="text-red-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-red-50 dark:text-red-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-red-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-red-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-red-900 hover:bg-red-700 focus:bg-red-600">
+<span class="text-red-600 focus:text-red-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-red-200 hover:bg-red-100 focus:bg-red-50 -my-16 md:-my-24"><h3
+    class="text-red-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+<!--pink-->
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-pink-900 hover:bg-pink-700 focus:bg-pink-600">
+<span class="block text-pink-600 focus:text-pink-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-pink-200 hover:bg-pink-100 focus:bg-pink-50 -my-16 md:-my-24"><h3
+    class="text-pink-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-pink-50 dark:text-pink-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-pink-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-pink-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-pink-900 hover:bg-pink-700 focus:bg-pink-600">
+<span class="text-pink-600 focus:text-pink-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-pink-200 hover:bg-pink-100 focus:bg-pink-50 -my-16 md:-my-24"><h3
+    class="text-pink-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+<!--gray-->
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-gray-900 hover:bg-gray-700 focus:bg-gray-600">
+<span class="block text-gray-600 focus:text-gray-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-gray-200 hover:bg-gray-100 focus:bg-gray-50 -my-16 md:-my-24"><h3
+    class="text-gray-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-gray-50 dark:text-gray-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-gray-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-gray-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-gray-900 hover:bg-gray-700 focus:bg-gray-600">
+<span class="text-gray-600 focus:text-gray-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-gray-200 hover:bg-gray-100 focus:bg-gray-50 -my-16 md:-my-24"><h3
+    class="text-gray-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+<!--blue-->
+<a href="{{prevurl}}" 
+class="prev article z-10 bg-blue-900 hover:bg-blue-700 focus:bg-blue-600">
+<span class="block text-blue-600 focus:text-blue-500 text-12xl overflow-clip sm:align-middle text-right -mr-10">◄</span>
+<div class="invisible md:visible bg-blue-200 hover:bg-blue-100 focus:bg-blue-50 -my-16 md:-my-24"><h3
+    class="text-blue-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{prevtitle}}</h3></div>
+</a>
+
+<div class="current article z-20 bg-blue-50 dark:text-blue-200 col-span-8 sm:col-span-6 p-4 min-h-screen h-full text-lg py-16 md:p-24 lg:px-48">
+<h1 class="text-blue-800 font-display font-bold text-4xl sm:py-6 lg: py-10">{{title}}</h1>
+<span class="block text-right text-blue-800 -mt-8">{{date}}</span></br>
+{% block content %}
+{% endblock %}
+</div>
+
+<a href="{{nexturl}}"
+class="next article z-10 bg-blue-900 hover:bg-blue-700 focus:bg-blue-600">
+<span class="text-blue-600 focus:text-blue-500 text-12xl overflow-clip sm:align-middle -ml-10">►</span>
+<div class="invisible md:visible bg-blue-200 hover:bg-blue-100 focus:bg-blue-50 -my-16 md:-my-24"><h3
+    class="text-blue-800 font-display break-words font-medium text-4xl sm:my-6 lg: my-10 px-2 align-middle rotate-90 transform sm:rotate-0">
+    {{nexttitle}}</h3></div>
+</a>
+<!--yellow-->
+<!--indigo-->
+<!--purple-->
+<!--orange-->

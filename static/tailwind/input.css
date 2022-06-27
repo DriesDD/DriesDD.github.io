@@ -1,0 +1,72 @@
+/*
+npx tailwindcss build input.css -o style.css
+*/
+
+/*pixel perfect HTML: <div id="mockup"></div>
+CSS:
+#mockup {
+  width: 332px;
+  height: 516px;
+  background-image: url(https://raw.githubusercontent.com/becodeorg/gnt-yu-3-21/master/1.The-Field/5.End-of-Field/1.Trial-Run/images/13.ui-chart-2.png?token=AAFTYPC4SCNSITCGMEUCNLS7BBK7I);
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply font-display mb-8 mt-4 font-bold text-4xl;
+  }
+  article h2 {
+    @apply font-display ml-4 mb-8 mt-4 text-3xl font-bold;
+  }
+  img {
+    @apply min-w-full max-w-full transform bg-cover bg-gray-500;
+  }
+
+  picture img {
+    @apply min-w-0 min-h-0 max-h-screen max-w-full transform;
+  }
+
+  p {
+    @apply mb-4;
+  }
+  pre {
+    @apply mb-4 font-mono p-4 text-green-300 border-l-8 border-gray-900 bg-gray-700 break-all whitespace-pre-wrap;
+  }
+  code {
+    @apply font-mono text-gray-800 bg-white pl-1 pr-1;
+  }
+  ul {
+    @apply mb-4 list-inside list-disc;
+  }
+  li {
+    @apply mb-1 ml-8 ;
+  }
+  u{
+    @apply underline ;
+  }
+  i {
+    @apply italic ;
+  }
+  b {
+    @apply font-bold ;
+  }
+  article a {
+    @apply underline ;
+    @apply font-bold ;
+  }
+  div {
+    @apply bg-cover ;
+  }
+  
+}
